@@ -29,8 +29,7 @@ git config --global user.name "Your Name"
 
 ## Credentials on GitHub
 
-1. Click on your profile pic menu.
-2. Click on "Settings".
-3. Click on "Developer settings".
-4. Click on "Personal access tokens".
-5. Generate a token and use it as password when authenticating in `git`.
+1. Click on "Settings".
+2. Click on "Developer settings".
+3. Click on "Personal access tokens".
+4. Generate a token and use it as password when authenticating in `git`.
