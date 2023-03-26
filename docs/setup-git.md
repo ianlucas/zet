@@ -17,7 +17,7 @@ git config --global init.defaultBranch main
 > See https://stackoverflow.com/a/12240995
 
 ```bash
-git config credential.helper store
+git config --global credential.helper store
 ```
 
 4. Define who you are.
