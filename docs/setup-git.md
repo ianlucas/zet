@@ -12,7 +12,7 @@ apt-get install git
 git config --global init.defaultBranch main
 ```
 
-3. Store `git` credentails permanently.
+3. Store `git` credentials permanently.
 
 > See https://stackoverflow.com/a/12240995
 
