@@ -12,7 +12,15 @@ apt-get install git
 git config --global init.defaultBranch main
 ```
 
-3. Define who you are.
+3. Store `git` credentails permanently.
+
+> See https://stackoverflow.com/a/12240995
+
+```bash
+git config credential.helper store
+```
+
+4. Define who you are.
 
 ```bash
 git config --global user.email "you@example.com"
