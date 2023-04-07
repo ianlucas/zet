@@ -1,4 +1,4 @@
-# Setup `git`
+# `git`
 
 1. Install `git` in your system.
 
