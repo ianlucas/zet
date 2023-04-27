@@ -33,3 +33,7 @@ git config --global user.name "Your Name"
 2. Click on "Developer settings".
 3. Click on "Personal access tokens".
 4. Generate a token and use it as password when authenticating in `git`.
+
+## See also
+
+- Renaming a repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/renaming-a-repository
