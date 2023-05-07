@@ -40,3 +40,15 @@ VBoxManage unregistervm "YOUR_VM_NAME" --delete
 ```bash
 VBoxManage modifyhd "YOUR_VM_NAME.vdi" --resize <new_size_in_MB>
 ```
+
+#### Update default partioning
+
+> See https://askubuntu.com/a/1117523
+
+```bash
+sudo lvm
+lvm> lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
+lvm> exit
+
+sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
+```
