@@ -20,7 +20,13 @@ VBoxManage storageattach "YOUR_VM_NAME" --storagectl "IDE Controller" --port 0 -
 VBoxManage modifyvm "YOUR_VM_NAME" --nic1 nat
 ```
 
-## Removing an existing virtual machine
+### Starting a virtual machine
+
+```bash
+VBoxManage startvm "YOUR_VM_NAME"
+```
+
+### Removing an existing virtual machine
 
 ```bash
 VBoxManage unregistervm "YOUR_VM_NAME" --delete
