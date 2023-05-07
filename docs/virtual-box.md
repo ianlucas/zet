@@ -34,3 +34,9 @@ VBoxManage controlvm "YOUR_VM_NAME" poweroff
 ```bash
 VBoxManage unregistervm "YOUR_VM_NAME" --delete
 ```
+
+### Resizing an existing virtual machine
+
+```bash
+VBoxManage modifyhd "YOUR_VM_NAME.vdi" --resize <new_size_in_MB>
+```
