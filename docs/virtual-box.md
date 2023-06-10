@@ -18,7 +18,7 @@ VBoxManage storageattach "YOUR_VM_NAME" --storagectl "SATA Controller" --port 0 
 VBoxManage storagectl "YOUR_VM_NAME" --name "IDE Controller" --add ide
 VBoxManage storageattach "YOUR_VM_NAME" --storagectl "IDE Controller" --port 0 --device 0 --type dvddrive --medium ubuntu-20.04.3-live-server-amd64.iso
 VBoxManage modifyvm "YOUR_VM_NAME" --nic1 nat
-VBoxManage modifyvm "CSGOServer" --natpf1 "ssh,tcp,,2334,,22"
+VBoxManage modifyvm "YOUR_VM_NAME" --natpf1 "ssh,tcp,,2334,,22"
 ```
 
 ### Starting and stopping a virtual machine
